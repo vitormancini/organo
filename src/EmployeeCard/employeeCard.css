@@ -1,0 +1,60 @@
+.employeeCard {
+    position: relative;
+    width: 12rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 10px #DDD;
+    border-radius: 10px;
+    margin: 0.6rem;
+    background-color: white;
+}
+
+.topContainer {
+    width: 100%;
+    height: 4rem;
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 6rem;
+    border-radius: 50%;
+    margin-top: -3rem;
+}
+
+.employeeName {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.employeeRole {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.deleteButton {
+    position: absolute;
+    left: 11rem;
+    top: -0.5rem;
+    font-size: 1.5rem;
+}
+
+.favorite {
+    margin-top: 0.7rem;
+    cursor: pointer;
+}
+
+.favIcon {
+    font-size: 1.3rem;
+    color: red;
+}

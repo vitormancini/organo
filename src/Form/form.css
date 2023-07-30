@@ -1,0 +1,46 @@
+.employeeRegisterForm,
+.squadRegisterForm {
+    width: 1121px;
+    align-self: center;
+    background-color: var(--terciary);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem;
+    border-radius: 10px;
+    margin-top: 4rem;
+    box-shadow: 1px 1px 3px #AAA;
+}
+
+.formTitle {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.employeeRegisterForm label {
+    margin-bottom: 0.3rem;
+}
+
+.nameInput,
+.roleInput,
+.imageInput,
+.squadSelect,
+.squadName {
+    outline: none;
+    font-size: 1rem;
+    padding: 1.2rem 0.5rem;
+    margin-bottom: 1.3rem;
+    border: 0;
+    box-shadow: 3px 3px 10px #CCC;
+}
+
+.sendFormButton {
+    width: fit-content;
+    padding: 1.3rem;
+    border: 0;
+    background-color: var(--primary);
+    border-radius: 10px;
+    color: var(--terciary);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
